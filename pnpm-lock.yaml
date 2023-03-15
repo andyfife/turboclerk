@@ -13,6 +13,8 @@ importers:
       '@typescript-eslint/eslint-plugin': ^5.50.0
       '@typescript-eslint/parser': ^5.50.0
       eslint: ^8.28.0
+      expo-linear-gradient: ^12.1.2
+      expo-location: ^15.1.1
       prettier: ^2.8.3
       prettier-plugin-tailwindcss: ^0.1.13
       turbo: ^1.7.3
@@ -22,6 +24,8 @@ importers:
       '@typescript-eslint/eslint-plugin': 5.50.0_go4drrxstycfikanvu45pi4vgq
       '@typescript-eslint/parser': 5.50.0_4vsywjlpuriuw3tl5oq6zy5a64
       eslint: 8.33.0
+      expo-linear-gradient: 12.1.2
+      expo-location: 15.1.1
       prettier: 2.8.3
       prettier-plugin-tailwindcss: 0.1.13_prettier@2.8.3
       turbo: 1.7.3
@@ -5263,6 +5267,12 @@ packages:
       expo: 47.0.13_@babel+core@7.20.5
     dev: false
 
+  /expo-linear-gradient/12.1.2:
+    resolution: {integrity: sha512-e1d6Hq5qsRL8sWutrOuQhuir4vHiRJ1PmvDIL8P33mt51Y8VFTQjTG/mr5qJlT8lUD/ADJfaBLzV7SNqSuDTLQ==}
+    peerDependencies:
+      expo: '*'
+    dev: false
+
   /expo-linking/3.2.3_expo@47.0.13:
     resolution: {integrity: sha512-PgiWCao9TecLOPdtWyiNSY+UQGAwdjFx4KbHd1YsF0KnM1CJ2idcaHpDRlQPWSNmDebUZYN461/dVtJi9b2krg==}
     dependencies:
@@ -5274,6 +5284,12 @@ packages:
     transitivePeerDependencies:
       - expo
       - supports-color
+    dev: false
+
+  /expo-location/15.1.1:
+    resolution: {integrity: sha512-hoKRlmi6Ya+NeZ72Zt385SDcSsIDpJI60TCBVO+Hc9xfKA9Hyminyyo5WiwI8J03igmPTCl8Y37MxBNKY9AWkg==}
+    peerDependencies:
+      expo: '*'
     dev: false
 
   /expo-modules-autolinking/1.0.2:
